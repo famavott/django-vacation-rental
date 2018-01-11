@@ -1,4 +1,9 @@
 .book-btn {
     border-radius: 6px;
-    color: black;
+    color: black !important;
+}
+
+hr {
+    width: 90%;
+    margin-bottom: 6rem;
 }
