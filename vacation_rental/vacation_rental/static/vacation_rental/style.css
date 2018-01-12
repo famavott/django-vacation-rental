@@ -36,3 +36,7 @@ margin-left: 6rem;
     font-weight: bold;
     padding: 0;
 }
+
+.modal.and.carousel {
+  position: fixed;
+}
