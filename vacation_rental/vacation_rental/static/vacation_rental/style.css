@@ -5,5 +5,27 @@
 
 hr {
     width: 90%;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.collapse_btn {
+    /*font-size: 1.2rem;*/
+    text-decoration: underline;
+}
+
+h2 {
+    margin-bottom: 1.2rem;
+}
+
+.amenity-icon {
+    color: #007aff;
+}
+
+address {
+margin-left: 6rem;
 }
