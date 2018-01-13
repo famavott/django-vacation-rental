@@ -154,7 +154,7 @@
       <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
     </div>
     <div class="col-lg-4 col-sm-6 text-center mb-4">
-      <img class="rounded img-fluid d-block mx-auto" src="{% static 'vacation_rental/carousel/map.png' %}" alt="" width="200" height="200">
+      <a href="{%url 'home' %}#location"><img class="rounded img-fluid d-block mx-auto" src="{% static 'vacation_rental/carousel/map.png' %}" alt="" width="200" height="200"></a>
       <h3>Location
       </h3>
       <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
@@ -162,29 +162,34 @@
   </div>
 </div>
 
+<a name="amenities">
 <hr>
+</a>
 
 <!-- Amenities Section -->
 <div class='container'>
   <h2>Amenities</h2>
   <div class='row'>
-    <div class='col wrapper'>
+    <div class='col-lg-2'></div>
+    <div class='col-lg-3 wrapper'>
       <ul>
         <li>Kitchen</li>
         <li>Wifi</li>
         <li>Washer/Dryer</li>
         <li>Cable TV</li>
+        <li>Outdoor Grill</li>
       </ul>
     </div>
-    <div class='col wrapper'>
+    <div class='col-lg-3 wrapper'>
       <ul>
         <li>Free Parking</li>
         <li>Patio/Deck</li>
         <li>Fireplace</li>
         <li>Beach Access</li>
+        <li>Panaramic View</li>
       </ul>
     </div>
-    <div class='col wrapper'>
+    <div class='col-lg-3 wrapper'>
       <ul>
         <li>Hangers</li>
         <li>Alarm Clock</li>
@@ -208,21 +213,26 @@
   </div>
 </div>
 
+<a name="location">
 <hr>
+</a>
 
 <!-- Location -->
 <div class='container'>
   <div class='row'>
     <div class='col-sm-8'>
       <iframe
-        width="600"
+        width="700"
         height="450"
         frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBQvReCLFqdCNehF9kicu8TrSDpYHcIgUU&center=47.234236, -124.210377&zoom=14" allowfullscreen>
       </iframe>
     </div>
     <div class="col-sm-4">
-      <h2 class="mt-4">Contact Us</h2>
+
+      <a class="btn btn-primary contact-btn" href="{% url 'contact' %}" role="button">
+        <h2>Contact Us</h2>
+      </a>
       <address>
         <strong>Daybreak on Sunset</strong>
         <br>P.O.Box 422
@@ -240,8 +250,6 @@
   </div>
 </div>
 
-<hr>
-
-  </body>
+</body>
 
 {% endblock content %}

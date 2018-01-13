@@ -9,7 +9,7 @@ hr {
 }
 
 ul {
-    text-align: center;
+    text-align: left;
     list-style-type: none;
 }
 
@@ -39,21 +39,38 @@ address {
 }
 
 .prefooter{
-    height: 0.35rem;
+    margin-top: 5rem;
     background-color: #BBDEFB;
+    height: 0.35rem;
 }
 
 .prefooter1 {
-    height: 0.5rem;
     background-color: #64B5F6;
+    height: 0.5rem;
 }
 
 .prefooter2{
-    height: 0.75rem;
     background-color: #2196F3;
+    height: 0.75rem;
 }
 
 footer {
-    height: 8rem;
     background-color: #007bff;
+    height: 8rem;
+}
+
+.contact-btn {
+    background-color: #ffc107;
+    border: none;
+    margin: 0 0 1rem !important; 
+}
+
+.contact-btn h2 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.thumb {
+    max-height: 170px !important;
+    overflow: hidden !important;
 }
