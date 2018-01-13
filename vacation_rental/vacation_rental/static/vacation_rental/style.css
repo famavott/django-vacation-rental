@@ -69,3 +69,8 @@ footer {
     color: white;
     margin-bottom: 0;
 }
+
+.thumb {
+    max-height: 170px !important;
+    overflow: hidden !important;
+}

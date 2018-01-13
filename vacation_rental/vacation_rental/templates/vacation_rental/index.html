@@ -154,7 +154,7 @@
       <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
     </div>
     <div class="col-lg-4 col-sm-6 text-center mb-4">
-      <img class="rounded img-fluid d-block mx-auto" src="{% static 'vacation_rental/carousel/map.png' %}" alt="" width="200" height="200">
+      <a href="{%url 'home' %}#location"><img class="rounded img-fluid d-block mx-auto" src="{% static 'vacation_rental/carousel/map.png' %}" alt="" width="200" height="200"></a>
       <h3>Location
       </h3>
       <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
@@ -162,11 +162,13 @@
   </div>
 </div>
 
+<a name="amenities">
 <hr>
+</a>
 
 <!-- Amenities Section -->
 <div class='container'>
-  <a name="amenities"><h2>Amenities</h2></a>
+  <h2>Amenities</h2>
   <div class='row'>
     <div class='col-lg-2'></div>
     <div class='col-lg-3 wrapper'>
@@ -211,7 +213,9 @@
   </div>
 </div>
 
+<a name="location">
 <hr>
+</a>
 
 <!-- Location -->
 <div class='container'>
