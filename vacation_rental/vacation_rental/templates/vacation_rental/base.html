@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="{% url 'home' %}">Home</a>
-        <a class="nav-item nav-link" href="#">Amenities</a>
+        <a class="nav-item nav-link" href="{%url 'home' %}#amenities">Amenities</a>
         <a class="nav-item nav-link" href="{% url 'contact' %}">Contact Us</a>
         <a class="nav-item nav-link btn-warning book-btn" role="button" href="#">Book Now</a>
       </div>
@@ -40,11 +40,12 @@
 <div class='prefooter'></div>
 <div class='prefooter1'></div>
 <div class='prefooter2'></div>
-<footer>
+<footer class='py-5'>
   <div class='container'>
-    <div class='row'>
-      
-
+    <div>
+      <p class="m-0 text-center text-white">
+        <cite>'Relax, enjoy the beach, and have fun'</cite></p><p class="m-0 text-center text-white">~Uncle Dave
+      </p>
     </div>
   </div>
 </footer>
