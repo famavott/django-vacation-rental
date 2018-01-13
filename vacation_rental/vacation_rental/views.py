@@ -10,3 +10,8 @@ def home(request):
 def gallery(request):
     """Return gallery page."""
     return render(request, 'vacation_rental/gallery.html')
+
+
+def contact(request):
+    """Return contact us page."""
+    return render(request, 'vacation_rental/contact.html')

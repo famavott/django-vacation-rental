@@ -21,15 +21,15 @@
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
-    <a class="navbar-brand" id="daybreak" href="#">Daybreak on Sunset</a>
+    <a class="navbar-brand" id="daybreak" href="{% url 'home' %}">Daybreak on Sunset</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="{% url 'home' %}">Home</a>
         <a class="nav-item nav-link" href="#">Amenities</a>
-        <a class="nav-item nav-link" href="#">Contact Us</a>
+        <a class="nav-item nav-link" href="{% url 'contact' %}">Contact Us</a>
         <a class="nav-item nav-link btn-warning book-btn" role="button" href="#">Book Now</a>
       </div>
     </div>
