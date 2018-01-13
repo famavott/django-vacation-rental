@@ -20,6 +20,7 @@ ul {
 
 h2 {
     margin-bottom: 1.2rem;
+    color: #ffc107;
 }
 
 .amenity-icon {
@@ -37,3 +38,22 @@ address {
     padding: 0;
 }
 
+.prefooter{
+    height: 0.35rem;
+    background-color: #BBDEFB;
+}
+
+.prefooter1 {
+    height: 0.5rem;
+    background-color: #64B5F6;
+}
+
+.prefooter2{
+    height: 0.75rem;
+    background-color: #2196F3;
+}
+
+footer {
+    height: 8rem;
+    background-color: #007bff;
+}
